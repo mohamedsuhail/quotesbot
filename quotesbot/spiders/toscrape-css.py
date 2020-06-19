@@ -5,7 +5,7 @@ import scrapy
 class ToScrapeCSSSpider(scrapy.Spider):
     name = "toscrape-css"
     start_urls = [
-        'http://quotes.toscrape.com/',
+        'https://www.bestbuy.com/site/fitness-boxing-nintendo-switch-digital/6321671.p?skuId=6321671',
     ]
 
     def parse(self, response):
